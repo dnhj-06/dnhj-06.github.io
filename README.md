@@ -1,8 +1,8 @@
 <img src="banner.svg" alt="dnhj-06.github.io - portfolio" width="100%">
 
 <p align="center">
-  <a href="https://dnhj-06.github.io"><img src="https://img.shields.io/badge/site-en_ligne-22c55e?style=for-the-badge&labelColor=131317"></a>
-  <img src="https://img.shields.io/badge/hébergé_sur-GitHub_Pages-e5243b?style=for-the-badge&logo=github&logoColor=white&labelColor=131317">
+  <a href="https://dnhj-06.github.io"><img src="https://img.shields.io/badge/site-en_ligne-22c55e?style=flat-square&labelColor=131317"></a>
+  <img src="https://img.shields.io/badge/hébergé_sur-GitHub_Pages-2a2a31?style=flat-square&logo=github&logoColor=white&labelColor=131317">
 </p>
 
 # Mon portfolio
