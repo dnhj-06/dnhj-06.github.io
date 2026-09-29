@@ -4,32 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Drilon Nuhija</title>
-<meta name="description" content="Informaticien CFC en formation – recherche de stage">
+<meta name="description" content="Étudiant CFC informaticien au Geneva Institute of Technology, recherche de stage en réseau et serveurs">
 <style>
-  :root { --bg:#f4f4f2; --card:#fff; --text:#1a1a1a; --muted:#6b6b6b; --line:#e2e2df; --accent:#1a1a1a; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --card:#1e1e1e; --text:#f0f0f0; --muted:#a0a0a0; --line:#333; --accent:#f0f0f0; } }
+  :root { --bg:#0b0b0e; --panel:#131317; --line:#26262d; --text:#f4f4f5; --muted:#8b8b96; --red:#e5243b; --green:#22c55e; }
   * { box-sizing:border-box; margin:0; }
-  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px 16px; }
-  main { width:100%; max-width:420px; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:32px 24px; text-align:center; }
-  img { width:112px; height:112px; border-radius:50%; object-fit:cover; }
-  h1 { font-size:24px; letter-spacing:.04em; margin-top:16px; }
-  p.role { color:var(--muted); font-size:15px; margin-top:6px; line-height:1.4; }
-  nav { display:flex; flex-direction:column; gap:12px; margin-top:28px; }
-  a.btn { display:block; padding:14px 16px; border-radius:10px; border:1px solid var(--accent); color:var(--text); text-decoration:none; font-weight:600; font-size:16px; }
-  a.btn.main { background:var(--accent); color:var(--card); }
-  a.btn:active { opacity:.7; }
-  .contact { margin-top:24px; font-size:14px; color:var(--muted); line-height:1.7; }
+  body { background:var(--bg); background-image:linear-gradient(#17171c 1px,transparent 1px),linear-gradient(90deg,#17171c 1px,transparent 1px); background-size:24px 24px; color:var(--text); font-family:Inter,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px 16px; }
+  main { width:100%; max-width:430px; background:var(--panel); border:1px solid var(--line); border-top:3px solid var(--red); border-radius:14px; padding:30px 24px 24px; }
+  .tag { font-family:"JetBrains Mono",Consolas,monospace; font-size:11px; letter-spacing:2px; color:var(--red); text-align:center; }
+  img { display:block; width:104px; height:104px; border-radius:50%; object-fit:cover; margin:18px auto 0; border:2px solid var(--line); }
+  h1 { font-size:26px; font-weight:800; text-align:center; margin-top:14px; }
+  .role { color:var(--muted); font-size:15px; text-align:center; margin-top:6px; line-height:1.45; }
+  .status { display:flex; align-items:center; justify-content:center; gap:8px; margin:16px auto 0; width:max-content; max-width:100%; padding:7px 14px; border:1px solid var(--red); border-radius:999px; background:#1a0f11; font-size:12px; white-space:nowrap; font-weight:600; }
+  .dot { width:8px; height:8px; border-radius:50%; background:var(--green); animation:blink 1.6s infinite; }
+  @keyframes blink { 50% { opacity:.35; } }
+  .term { margin-top:20px; background:var(--bg); border:1px solid var(--line); border-radius:9px; padding:12px 14px; font-family:"JetBrains Mono",Consolas,monospace; font-size:11.5px; line-height:1.8; color:#d4d4d8; overflow-wrap:anywhere; }
+  .term .p { color:var(--red); } .term .ok { color:var(--green); } .term .m { color:var(--muted); }
+  nav { display:flex; flex-direction:column; gap:10px; margin-top:20px; }
+  a.btn { display:block; text-align:center; padding:13px 16px; border-radius:9px; border:1px solid var(--line); color:var(--text); text-decoration:none; font-weight:700; font-size:15px; background:var(--panel); }
+  a.btn.main { background:var(--red); border-color:var(--red); color:#fff; }
+  a.btn:hover { border-color:var(--red); }
+  .contact { margin-top:18px; text-align:center; font-size:13px; line-height:1.8; color:var(--muted); }
   .contact a { color:inherit; }
 </style>
 </head>
 <body>
 <main>
+  <div class="tag">// NETWORK &amp; INFRASTRUCTURE</div>
   <img src="data:image/jpeg;base64,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" alt="Photo de Drilon Nuhija">
   <h1>Drilon Nuhija</h1>
-  <p class="role">Informaticien CFC en formation<br>Recherche de stage – réseau et serveurs</p>
+  <p class="role">Étudiant CFC informaticien<br>Geneva Institute of Technology</p>
+  <div class="status"><span class="dot"></span>Recherche de stage · Genève–Lausanne</div>
+  <div class="term">
+    <span class="p">$</span> show focus<br>
+    <span class="ok">●</span> Réseau · Serveurs · Virtualisation<br>
+    <span class="ok">●</span> VMware ESXi · vCenter · Active Directory<br>
+    <span class="m">3 serveurs ESXi montés en équipe, en service pour l'école</span>
+  </div>
   <nav>
     <a class="btn main" href="CV_Drilon_Nuhija.pdf" target="_blank">Voir mon CV (PDF)</a>
-    <a class="btn" href="https://github.com/dnhj-06" target="_blank">GitHub – mes projets</a>
+    <a class="btn" href="https://github.com/dnhj-06" target="_blank">Mes projets sur GitHub</a>
   </nav>
   <div class="contact">
     <a href="mailto:drilon.nuhija@git.swiss">drilon.nuhija@git.swiss</a><br>
